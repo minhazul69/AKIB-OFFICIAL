@@ -1,0 +1,131 @@
+@media screen and (max-width:1200px){
+    header{
+        height: 65vh; 
+    }
+    .row{
+        margin: 0 15px;
+    }
+    .hero-text-box{
+        width: 90%;
+    }
+}
+@media screen and (max-width:1024px){
+    header{
+        height: 70vh;
+    }
+    .row{
+        margin: 0 15px;
+    }
+    .hero-text-box{
+        width: 90%;
+    }
+    html{
+        font-size: 57.5%;
+    }
+    .clients-photo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .clients-riveo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .contact-section{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+}
+@media screen and (max-width:980px){
+    header{
+        height: 80vh;
+    }
+    h1{
+        margin-bottom: 0;
+    }
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    html{
+        font-size: 62.5%;
+    }
+    .mobile-menu span{
+        display: block;
+    }
+    .main-nav{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:768px){
+    .litte-discription{
+        width: 100%;
+        margin-left: 0;
+    }
+    h1{
+        font-size: 3.5rem;
+        width: 60%;
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:500px){
+    header{
+        height: 100vh;
+    }
+    .span_1_of_5{
+        width: 100%;
+    }
+    .span_1_of_4{
+        width: 100%;    }
+    h1{
+        font-size: 3.5rem;
+        width: 60%;
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    .testimonial .col:nth-child(3),
+    .testimonial .col:nth-child(4){
+        margin-top: 4rem;
+    }
+}
+@media screen and (max-width:480px){
+    header{
+        height: 95vh;
+    }
+    .span_1_of_5{
+        width: 100%;
+    }
+    .span_1_of_4{
+        width: 100%;    }
+    h1{
+        font-size: 3.5rem;
+        width: 60%;
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    .testimonial .col:nth-child(3),
+    .testimonial .col:nth-child(4){
+        margin-top: 4rem;
+    }
+}
