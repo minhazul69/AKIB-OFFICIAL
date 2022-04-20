@@ -423,8 +423,9 @@ svg.web-design circle {
   box-shadow: inset 0 0.3rem 0.4rem rgba(60, 71, 97, 0.5);
 }
 .portfolio-image {
-  width: 100%;
+  width: 95%;
   height: 30rem;
+  border-radius: 17px;
 }
 .portfolio-section a {
   text-decoration: none;
