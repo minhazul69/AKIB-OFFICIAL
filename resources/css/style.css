@@ -386,7 +386,26 @@ svg.web-design circle {
 /*=====================*/
 /*portfolio SECTION*/
 /*=====================*/
-
+.overlay-img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.dark-overlay-img::before {
+  position: absolute;
+  width: 100%;
+  height: 30rem;
+  top: 0;
+  left: 0;
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  border-radius: 17px;
+}
+.dark-overlay-img:hover::before {
+  opacity: 0.7;
+}
 .portfolio-section {
   background: linear-gradient(
       rgba(255, 221, 153, 0.9),
@@ -423,7 +442,7 @@ svg.web-design circle {
   box-shadow: inset 0 0.3rem 0.4rem rgba(60, 71, 97, 0.5);
 }
 .portfolio-image {
-  width: 95%;
+  width: 100%;
   height: 30rem;
   border-radius: 17px;
 }
